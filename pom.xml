@@ -228,14 +228,6 @@
                         <goals>
                             <goal>run</goal>
                         </goals>
-                        <configuration>
-                            <tasks>
-                                <delete>
-                                    <fileset dir="D:\Development\Spigot Servers\Latest Version\plugins\Shops\locales" includes="*.yml"/>
-                                    <fileset dir="D:\Development\Spigot Servers\Latest Version\plugins\Shops\" includes="*.yml"/>
-                                </delete>
-                            </tasks>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
